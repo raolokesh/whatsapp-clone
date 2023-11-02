@@ -13,10 +13,13 @@
         android:theme="@style/Theme.WhatsappClone"
         tools:targetApi="31">
         <activity
-            android:name=".login_layout"
+            android:name=".MainActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".sigup_layout"
+            android:exported="false" />
+        <activity
+            android:name=".sigin_layout"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -25,5 +28,6 @@
             </intent-filter>
         </activity>
     </application>
+
 
 </manifest>

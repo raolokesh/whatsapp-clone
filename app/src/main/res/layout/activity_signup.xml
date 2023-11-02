@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="#CFBFBF"
-    tools:context=".MainActivity"
+    tools:context=".sigup_layout"
     android:gravity="center_vertical">
 
     <LinearLayout
@@ -30,6 +30,16 @@
             android:orientation="vertical"
             >
 
+            <EditText
+                android:id="@+id/input_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:layout_marginTop="10dp"
+                android:padding="8dp"
+                android:textSize="20dp"
+                android:hint="Your Name"
+                />
             <EditText
                 android:id="@+id/input_email"
                 android:layout_width="match_parent"

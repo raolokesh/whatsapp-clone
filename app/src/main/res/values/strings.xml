@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Whatsapp clone</string>
+    <string name="default_web_client_id">700497359376-00npebf3tkcgp85oi54aqc4mgjpa3c1v.apps.googleusercontent.com</string>
+    <string name="msg_token_fmt">token value</string>
 </resources>
